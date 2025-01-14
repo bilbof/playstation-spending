@@ -1,4 +1,4 @@
-# PlayStation store spending
+# PlayStation store spending
 
 Calculate how much you spent on Playstation per year and export transactions.
 
