@@ -35,7 +35,7 @@ for t in transactions:
     val = item["totalPrice"]["value"]
     total_per_year[date.year] = total_per_year.get(date.year, 0) + val
     if val > 0:
-      print(f"{date.strftime('%d-%m-%Y')} {pad(item['totalPrice']['formattedValue'])} {item['productName']}")
+      print(f"{date.strftime('%d-%m-%Y')}\t{pad(item['totalPrice']['formattedValue'])}\t{item['productName']}")
 
 print("------------------------------")
 print("Subtotal by year")

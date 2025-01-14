@@ -26,4 +26,4 @@ Total spend: £1234.56
 2. Go to https://web.np.playstation.com/api/graphql/v1/transact/transaction/history?limit=250&startDate=2018-01-01T00%3A00%3A00.000%2B0000&endDate=2025-12-31T16%3A54%3A59.663%2B0100&includePurged=false&transactionTypes=CREDIT,CYCLE_SUBSCRIPTION,DEBIT,DEPOSIT_CHARGE,DEPOSIT_VOUCHER,PRODUCT_PURCHASE,REFUND_PAYMENT_CHARGE,REFUND_PAYMENT_WALLET,VOUCHER_PURCHASE,WALLET_BALANCE_CONVERSION
   Note: you can increase the limit and change the date range in the query params. If hasMore: true in the response, do multiple requests
 3. Download the JSON file response and put it into a top-level "./transactions" directory.
-4. Run `python line-items.json`
+4. Run `python line-items.py`
